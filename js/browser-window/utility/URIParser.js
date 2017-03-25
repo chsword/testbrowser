@@ -59,7 +59,7 @@ URIParser.parse = function(uri) {
 	// return Google search for all other
 	else {
 		URIInfo.type ="search";
-		URIInfo.formattedURI = "http://www.baidu.com/search?q=" + encodeURI(uri);
+		URIInfo.formattedURI = "http://www.baidu.com/s?wd=" + encodeURI(uri);
 	}
 
 	return URIInfo;

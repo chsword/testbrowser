@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 /**
  * User menu and related controls
@@ -35,7 +35,7 @@ function UserMenu(hackBrowserWindow) {
 
 		menuTemplate = [
 			{
-				label: "New tab",
+				label: "新建标签",
 				accelerator: "Ctrl+T",
 				enabled: true, 
 				click: function(item, focusedWindow) {
@@ -43,7 +43,7 @@ function UserMenu(hackBrowserWindow) {
 				}
 			},
 			{
-				label: "New window",
+				label: "新窗口",
 				accelerator: "Ctrl+N",
 				enabled: true,
 				click: function(item, focusedWindow) {
@@ -54,8 +54,8 @@ function UserMenu(hackBrowserWindow) {
 			{
 				type: "separator"
 			},
-			{
-				label: "Print",
+            {
+				label: "打印",
 				accelerator: "CmdOrCtrl+P",
 				click: function(item, focusedWindow) {
 					hackBrowserWindow.getActiveTabView().getWebViewEl().print();

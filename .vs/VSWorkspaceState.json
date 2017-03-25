@@ -1,0 +1,19 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\html-pages",
+    "\\html-pages\\css",
+    "\\js",
+    "\\js\\browser-window",
+    "\\js\\browser-window\\controller",
+    "\\js\\browser-window\\inject",
+    "\\js\\browser-window\\lib",
+    "\\js\\browser-window\\utility",
+    "\\js\\browser-window\\view",
+    "\\js\\common",
+    "\\js\\main-process",
+    "\\js\\main-process\\model"
+  ],
+  "SelectedNode": "\\js\\browser-window\\view\\AutoCompleteBox.js",
+  "PreviewInSolutionExplorer": false
+}
